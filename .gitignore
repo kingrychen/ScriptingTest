@@ -1,6 +1,9 @@
 # app specific stuff
 .DS_Store
 
+# Development related
+bower_components
+
 # SublimeText project files
 *.sublime-workspace
 *.sublime-project
