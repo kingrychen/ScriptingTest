@@ -11,6 +11,9 @@
     <script src="scripts/scripts.js"></script>
 </head>
 <body ng-controller="mainCtrl">
+<!--[if lte IE 8]>
+<p class="browserCompatible">You are using an <strong>outdated</strong> browser. Please upgrade your browser to improve your experience.</p>
+<![endif]-->
 <h1 class="text-center">Welcome <small>v 1.0.0</small></h1>
 <div class="container">
     <div class="row">
@@ -37,6 +40,10 @@
     <span class="panel panel-info">胜利次数: {{correctCounter}}</span>
     <span class="panel panel-info">游戏总数: {{tryCounter}}</span>
     <span class="panel panel-info">胜率: {{winRate}}</span>
+</div>
+<!--Clear button-->
+<div class="container-fluid">
+    <input type="button" class="btn btn-danger btn-lg clear" value="清零" ng-click="clear()"/>
 </div>
 </body>
 </html>

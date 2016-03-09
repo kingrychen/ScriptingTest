@@ -5,7 +5,9 @@
 }
 
 .container {
+    position: relative;
     margin-top: 50px;
+    left: 10%;
 }
 
 .panel {
@@ -20,9 +22,16 @@
 .statistics {
     position: relative;
     left: 40%;
+    margin-top: 50px;
 }
 
 .statistics > span {
     font-size: 130%;
     font-weight: bold;
+}
+
+.clear {
+    position: relative;
+    margin-top: 50px;
+    left: 45%;
 }
