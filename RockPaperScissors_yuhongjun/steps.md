@@ -1,9 +1,14 @@
-从柳星  https://github.com/S1ngS1ng/ScriptingTest.git fork 之后
-以我余虹君为例子  https://github.com/yuhjun/ScriptingTest.git
-1. git clone 余虹君
-2. 进入bower.json 所在项目 打开git bash  使用bower install 安装包文件
-3. 同步柳星改过的GIT  参考 http://www.tuicool.com/articles/6vayqen
 
+#steps
+从柳星  https://github.com/S1ngS1ng/ScriptingTest.git fork 之后,
+以我余虹君为例子  https://github.com/yuhjun/ScriptingTest.git
+
+1.  git clone 余虹君
+2.  进入bower.json 所在项目 打开git bash  使用bower install 安装包文件
+3.  同步柳星改过的GIT  参考 http://www.tuicool.com/articles/6vayqen
+
+***
+### Note1:
 Github上fork之后如何保持同步(Windows环境)
 
 1. `git remote -v`
@@ -17,6 +22,7 @@ upstream: https://github.com/S1ngS1ng/ScriptingTest.git (push)
 4. `git checkout master`
 
 -----
+### Note2:
 使用git rebase是有条件的, 你的本地仓库要“足够干净”. 可以用git status命令查看当前改动:
 `git status`
 结果:
